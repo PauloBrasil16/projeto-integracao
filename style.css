@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: rgb(238, 182, 0);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* O que é gap msm????? */
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+.busca {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    gap: 16px;
+}
